@@ -127,12 +127,6 @@ export default defineComponent({
           expansion_data_link_icon: "mail",
           expansion_data_link_label: "Login"
         },
-        {
-          link_icon: "pages",
-          link_label: "Pages",
-          expansion_data_link_icon: "mail",
-          expansion_data_link_label: "Login"
-        },
 
       ]
     }
