@@ -52,22 +52,22 @@ const linksList = [
     link: '/crm_dashboard'
   },
   {
-    title: 'Pages',
+    title: 'Login',
     caption: '',
-    icon: 'pages',
-    link: 'https://chat.quasar.dev'
+    icon: 'mail',
+    link: '/Login_page'
   },
   {
-    title: 'Forum',
+    title: 'Lock Screen',
     caption: '',
-    icon: 'record_voice_over',
-    link: 'https://forum.quasar.dev'
+    icon: 'lock',
+    link: '/lock_screen'
   },
   {
-    title: 'Twitter',
+    title: 'Lock Screen2',
     caption: '',
-    icon: 'rss_feed',
-    link: 'https://twitter.quasar.dev'
+    icon: 'lock',
+    link: '/lock_screen2'
   },
   {
     title: 'Facebook',
@@ -121,6 +121,12 @@ export default defineComponent({
   data() {
     return {
       expansions: [
+        {
+          link_icon: "pages",
+          link_label: "Pages",
+          expansion_data_link_icon: "mail",
+          expansion_data_link_label: "Login"
+        },
         {
           link_icon: "pages",
           link_label: "Pages",
