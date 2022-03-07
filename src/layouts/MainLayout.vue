@@ -70,16 +70,16 @@ const linksList = [
     link: '/lock_screen2'
   },
   {
-    title: 'Facebook',
+    title: 'Pricing',
     caption: '',
-    icon: 'public',
-    link: 'https://facebook.quasar.dev'
+    icon: 'list',
+    link: '/pricing_page'
   },
   {
-    title: 'Quasar Awesome',
+    title: 'User Profile',
     caption: '',
-    icon: 'favorite',
-    link: 'https://awesome.quasar.dev'
+    icon: 'person',
+    link: '/user_profile'
   },
   {
     title: 'Facebook',

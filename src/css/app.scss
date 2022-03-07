@@ -1,4 +1,5 @@
 // app global css in SCSS form
+//  Quasar Qtabs CSS start here
 .q_tab_size {
   font-size: 0.7rem;
   line-height: 1.815em;
@@ -15,6 +16,7 @@
 .custom-exp i {
   display: none;
 }
+//  Login Page Css start here
 .login-card-sm {
   height: 350px;
   width: 300px;
@@ -27,6 +29,7 @@
   margin: auto;
   text-align: center;
 }
+// Unlock_Screen page css start here
 .unlock-card-sm {
   height: 300px;
   width: 280px;
@@ -39,6 +42,7 @@
   margin: auto;
   text-align: center;
 }
+// Unlock_Screen2 page css start here
 .unlock2-pic-sm {
   width: 40%;
   height: 130px;
@@ -46,4 +50,8 @@
 .unlock2-pic-md {
   width: 12%;
   height: 130px;
+}
+//  User profile css
+.card-bg {
+  background-color: #162b4d;
 }
