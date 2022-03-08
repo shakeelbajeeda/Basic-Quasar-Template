@@ -6,7 +6,7 @@
     <q-img
       style="border-radius:100%;"
       src="~assets/images/shakeel.jpg"
-    
+
       :class="$q.screen.lt.sm ? 'unlock2-pic-sm' : 'unlock2-pic-md'"
     ></q-img>
     <div class="q-pl-md">
@@ -45,7 +45,7 @@
            icon="arrow_right_alt"
            class="q-mt-sm q-ml-md"
            round
-            href="http://localhost:8080/#/dashboard"
+            href="http://localhost:8080/dashboard"
           ></q-btn>
     </div>
   </q-page>

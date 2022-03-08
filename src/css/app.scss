@@ -13,7 +13,7 @@
 .message_icon_hide {
   display: none;
 }
-.custom-exp i {
+.custom-exp .q-expansion-item__toggle-icon {
   display: none;
 }
 //  Login Page Css start here
@@ -48,10 +48,13 @@
   height: 130px;
 }
 .unlock2-pic-md {
-  width: 12%;
+  width: 10%;
   height: 130px;
 }
 //  User profile css
 .card-bg {
   background-color: #162b4d;
+}
+.custom-form .q-field__native{
+  color: white!important;
 }

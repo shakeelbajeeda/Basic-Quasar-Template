@@ -6,7 +6,7 @@
       </div>
       <div class="col-md-8">
         <div class="float-right text-white">
-          <q-btn flat icon="dashboard" label="Dashboard" href="http://localhost:8080/#/dashboard" />
+          <q-btn flat icon="dashboard" label="Dashboard" href="http://localhost:8080/dashboard" />
           <q-btn flat icon="list" label="Pricing" />
           <q-btn
             flat

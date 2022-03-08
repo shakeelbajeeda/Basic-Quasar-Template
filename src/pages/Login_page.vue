@@ -51,7 +51,7 @@
                 color="dark"
                 label="Login"
                 class="float-left q-mt-sm"
-                href="http://localhost:8080/#/dashboard"
+                href="http://localhost:8080/dashboard"
               ></q-btn>
             </q-form>
           </q-card-section>

@@ -18,12 +18,7 @@
           Essential Links
         </q-item-label>-->
 
-        <EssentialLink v-for="link in essentialLinks" :key="link.title" v-bind="link" />
-        <ExpansionLinks
-          v-for="expansion in expansions"
-          :key="expansion"
-          :expansion_data="expansion"
-        />
+        <EssentialLink />
       </q-list>
     </q-drawer>
 
@@ -34,84 +29,19 @@
 </template>
 
 <script>
-import EssentialLink from 'components/EssentialLink.vue';
-import ExpansionLinks from 'src/components/Expansionlinks/expansionlinks.vue';
-
-
-const linksList = [
-  {
-    title: 'Dashboard',
-    caption: '',
-    icon: 'dashboard',
-    link: '/dashboard'
-  },
-  {
-    title: 'CRM Dashboard',
-    caption: '',
-    icon: 'dashboard',
-    link: '/crm_dashboard'
-  },
-  {
-    title: 'Login',
-    caption: '',
-    icon: 'mail',
-    link: '/Login_page'
-  },
-  {
-    title: 'Lock Screen',
-    caption: '',
-    icon: 'lock',
-    link: '/lock_screen'
-  },
-  {
-    title: 'Lock Screen2',
-    caption: '',
-    icon: 'lock',
-    link: '/lock_screen2'
-  },
-  {
-    title: 'Pricing',
-    caption: '',
-    icon: 'list',
-    link: '/pricing_page'
-  },
-  {
-    title: 'User Profile',
-    caption: '',
-    icon: 'person',
-    link: '/user_profile'
-  },
-  {
-    title: 'Facebook',
-    caption: '',
-    icon: 'public',
-    link: 'https://facebook.quasar.dev'
-  },
-  {
-    title: 'Facebook',
-    caption: '',
-    icon: 'public',
-    link: 'https://facebook.quasar.dev'
-  },
-
-
-];
-
 import { defineComponent, ref } from 'vue'
-
+import EssentialLink from 'src/components/EssentialLink.vue'
 export default defineComponent({
   name: 'MainLayout',
 
   components: {
-    EssentialLink,
-    ExpansionLinks
+    EssentialLink
   },
 
   setup() {
     const leftDrawerOpen = ref(false)
 
     return {
-      essentialLinks: linksList,
       leftDrawerOpen,
       toggleLeftDrawer() {
         leftDrawerOpen.value = !leftDrawerOpen.value
@@ -120,21 +50,6 @@ export default defineComponent({
   },
   data() {
     return {
-      expansions: [
-        {
-          link_icon: "pages",
-          link_label: "Pages",
-          expansion_data_link_icon: "mail",
-          expansion_data_link_label: "Login"
-        },
-        {
-          link_icon: "pages",
-          link_label: "Pages",
-          expansion_data_link_icon: "mail",
-          expansion_data_link_label: "Login"
-        },
-
-      ]
     }
   }
 })
