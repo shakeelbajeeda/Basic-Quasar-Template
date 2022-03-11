@@ -13,7 +13,7 @@
             icon="lock"
             label="Lock"
             class="q-mr-md"
-            href="http://localhost:8080/#/lock_screen2"
+            href="/lock_screen2"
           />
         </div>
       </div>

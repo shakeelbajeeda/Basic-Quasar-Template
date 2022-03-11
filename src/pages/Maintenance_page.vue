@@ -5,7 +5,7 @@
       icon="keyboard_backspace"
       round
       class="q-mt-md q-ml-md"
-      href="http://localhost:8080/dashboard"
+      href="/dashboard"
     />
     <div class="flex" style="height: 100vh;">
       <q-card flat class="transparent text-center text-white" style="margin:auto;">

@@ -45,7 +45,7 @@
            icon="arrow_right_alt"
            class="q-mt-sm q-ml-md"
            round
-            href="http://localhost:8080/dashboard"
+            href="/dashboard"
           ></q-btn>
     </div>
   </q-page>

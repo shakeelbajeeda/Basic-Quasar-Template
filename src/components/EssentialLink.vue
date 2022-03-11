@@ -5,7 +5,7 @@
       v-for="item in items"
       :key="item"
       :class="item.sub_menu.length ? '' : 'custom-exp'"
-      class="q-py-sm text-subtitle1 custom-item"
+      class="q-py-sm text-subtitle1"
       :icon="item.icon"
       :label="item.label"
       :to="item.sub_menu.length ? '' : item.link"
@@ -19,7 +19,7 @@
             v-bind="sub_item"
             clickable
             v-ripple
-            class="q-py-sm custom-item"
+            class="q-py-sm"
             :to="sub_item.link"
           >
             <q-item-sec>
