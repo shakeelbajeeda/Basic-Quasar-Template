@@ -51,7 +51,7 @@
                 color="dark"
                 label="Login"
                 class="float-left q-mt-sm"
-                href="/dashboard"
+                to="/dashboard"
               ></q-btn>
             </q-form>
           </q-card-section>

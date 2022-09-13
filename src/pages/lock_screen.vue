@@ -37,7 +37,7 @@
                 color="dark"
                 label="Unlock"
                 class="q-mt-sm"
-                href="/dashboard"
+                to="/dashboard"
               ></q-btn>
             </q-form>
           </q-card-section>

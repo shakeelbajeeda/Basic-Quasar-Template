@@ -5,6 +5,7 @@ const routes = [
     component: () => import('layouts/MainLayout.vue'),
     children: [
       { path: '', component: () => import('pages/Index.vue') },
+
       { path: 'dashboard', component: () => import('pages/dashboard.vue') },
       { path: 'crm_dashboard', component: () => import('pages/crm_dashboard.vue') },
       { path: 'user_profile', component: () => import('pages/user_profile.vue') }
@@ -20,7 +21,14 @@ const routes = [
       { path: 'lock_screen', component: () => import('pages/lock_screen.vue') },
       { path: 'lock_screen2', component: () => import('pages/lock_screen2.vue') },
       { path: 'pricing_page', component: () => import('pages/pricing_page.vue') },
-      { path: 'Maintenance_page', component: () => import('pages/Maintenance_page.vue') }
+      { path: 'Maintenance_page', component: () => import('pages/Maintenance_page.vue') },
+      { path: 'mainPage', component: () => import('pages/mainPage.vue') },
+      { path: 'Login', component: () => import('pages/Login.vue') },
+      { path: 'signUp', component: () => import('pages/signUp.vue') },
+      { path: 'Forgot', component: () => import('pages/Forgot.vue') },
+      { path: 'Packages', component: () => import('pages/Packages.vue') },
+
+
     ]
   },
 

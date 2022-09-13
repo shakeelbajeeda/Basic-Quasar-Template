@@ -90,19 +90,19 @@ export default {
           ]
         },
         {
-          label: 'Maps',
-          icon: 'map',
+          label: 'Mobile',
+          icon: 'phone',
           link: '',
           sub_menu: [
              {
-              label: "Map",
-              link: '',
-              icon: 'map'
+              label: "Main Page",
+              link: '/mainPage',
+              icon: 'home'
             },
              {
-              label: "Map",
-              link: '',
-              icon: 'fmd_good'
+              label: "Login",
+              link: '/Login',
+              icon: 'lock'
             },
 
           ]

@@ -6,14 +6,14 @@
       </div>
       <div class="col-md-8">
         <div class="float-right text-white">
-          <q-btn flat icon="dashboard" label="Dashboard" href="http://localhost:8080/dashboard" />
+          <q-btn flat icon="dashboard" label="Dashboard" to="/dashboard" />
           <q-btn flat icon="list" label="Pricing" />
           <q-btn
             flat
             icon="lock"
             label="Lock"
             class="q-mr-md"
-            href="/lock_screen2"
+            to="/lock_screen2"
           />
         </div>
       </div>

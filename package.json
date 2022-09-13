@@ -6,7 +6,11 @@
   "author": "shakeelbajeeda <shakeelbajeeda@gmail.com>",
   "private": true,
   "scripts": {
-    "test": "echo \"No test specified\" && exit 0"
+    "icons": "icongenie generate -i app-icon.png --skip-trim --theme-color 000000 --padding 5,5",
+    "cordova:dev": "quasar dev -m cordova -T android -- --buildConfig=\"../build.cordova.json\"",
+    "capacitor:dev": "quasar dev -m capacitor -T android -- --buildConfig=\"../build.cordova.json\"",
+    "cordova:build": "quasar build -m cordova -T android -- --buildConfig=\"../build.cordova.json\" -- --packageType=bundle --release",
+    "capacitor:build": "quasar build -m capacitor -T android"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
